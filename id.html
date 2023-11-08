@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID and Tag</title>
+</head>
+<body>
+    <p id="menu">Sameer Ahmed</p>
+    <h3>This is my Name</h3>
+    <script>
+        var a = document.getElementById("menu");
+        a.style.backgroundColor="grey";
+        a.style.color="black";
+        a.style.padding="10px";
+        a.style.border="1px solid black";
+        var b = document.getElementsByTagName("h3")[0];
+        b.style.backgroundColor="green";
+        b.style.color="black";
+        b.style.padding="10px";
+        b.style.border="1px solid blue";
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector All</title>
+</head>
+<body>
+    <h1>Object</h1>
+    <h2>Query Selector All()</h2>
+    <h4>Hi</h4>
+    <div>Div element</div>
+    <p>P element</p>
+    <p>P element 1</p>
+    <div class="example">
+        <p>A P element</p>
+    </div>
+    <script>
+        const nodelist=document.querySelectorAll("P");
+        for(let i=0; i<nodelist.length; i++){
+            nodelist[i].style.backgroundColor="grey";
+        }
+    </script>
+</body>
+</html>

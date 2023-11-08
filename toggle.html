@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle</title>
+    <style>
+        .mystyle{
+            width: 100%;
+            padding: 25px;
+            background-color: coral;
+            color: white;
+            font-size: 25px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p>Try</p>
+    <button onclick="myFunction()">Try It</button>
+    <div id="mydiv">This is a div element</div>
+    <script>
+        function myFunction(){
+            var element = document.getElementById("mydiv");
+            element.classList.toggle("mystyle");
+        }
+    </script>
+</body>
+</html>
